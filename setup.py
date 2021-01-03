@@ -45,8 +45,8 @@ setuptools.setup(
                    'agents/gin_rummy_human_agent/gui_gin_rummy/*'
                    ]},
     install_requires=[
-        'numpy>=1.16.3',
-        'matplotlib>=3.0',
+        'numpy==1.19.3',
+        'matplotlib==3.3.3',
         'pillow>=5.2.0',
         'termcolor',
         'packaging',
